@@ -15,7 +15,7 @@ int main()
         {
             maior_numero = numero;
         }
-         printf("Digite um numero: ");
+        printf("Digite um numero: ");
         scanf("%f", &numero);
     }
 
