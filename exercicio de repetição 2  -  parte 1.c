@@ -7,21 +7,13 @@ int main()
     printf("Digite um numero: ");
     scanf("%f", &numero);
 
-
-    if (numero < 0)
-    {
-        printf("Nenhum numero valido foi digitado.\n");
-        return 0;
-    }
-
     maior_numero = numero;
 
-    while (1)
+    while (numero > 0)
     {
         printf("Digite um numero: ");
         scanf("%f", &numero);
 
-        if (numero < 0)
         {
             break;
         }
